@@ -6,9 +6,9 @@ app = Flask(__name__)
 # Daftar produk
 List= {
     "001": {"name": "Bstation", "price": 12000},
-    "002": {"name "Jeans", "price": 200000},
-    "003": {"name "Jeans", "price": 200000},
-    "004": {"name": "Sneakers", "price": 300000},
+    "002": {"name "Capcut", "price": 15000},
+    "003": {"name "youtube famhead", "price": 5000},
+    "004": {"name": "Netflix 1u", "price": 20000},
 }
 
 @app.route("/whatsapp", methods=['POST'])
